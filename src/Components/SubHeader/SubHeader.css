@@ -1,3 +1,16 @@
+.sub-header {
+    /* background-color: rgba(92, 92, 92, 0.874); */
+    color: rgb(251, 251, 43);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    width: 50%;
+    margin: auto;
+}
+
 .nav-main {
     display: flex;
     align-items: center;
@@ -17,7 +30,7 @@
     .nav-main {
         flex-direction: column;
     }
-    
+
     .nav {
         flex-direction: column;
     }
