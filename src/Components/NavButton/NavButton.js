@@ -8,7 +8,7 @@ const NavButton = ({buttonName, photo}) => {
             <Button className="nav-button" variant="primary">
                 <img src={photo} alt={buttonName} />
             </Button>
-            <h4>{buttonName}</h4>
+            <h6 style={{ fontFamily: 'TerminalText'}}>{buttonName}</h6>
         </div>
     );
 }

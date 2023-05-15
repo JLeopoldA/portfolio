@@ -1,11 +1,13 @@
 .nav-bar {
     justify-content: center;
+    display: flex;
     margin: auto;
     margin-top: 10px;
     background-color: rgb(73, 73, 229);
     width: 75%;
     height: 75px;
     border-radius: 12px;
+    
 }
 
 /* .nav-bar {
