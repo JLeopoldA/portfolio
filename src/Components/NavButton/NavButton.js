@@ -6,7 +6,7 @@ const NavButton = ({buttonName, photo}) => {
     return (
         <div clasName="nav-button-container">
             <Button className="nav-button" variant="primary">
-                <img src={photo} alt={buttonName} />
+                <img className="nav-button-photo"src={photo} alt={buttonName} />
             </Button>
             <h6 style={{ fontFamily: 'TerminalText'}}>{buttonName}</h6>
         </div>

@@ -12,7 +12,7 @@ const Typewriter = ({ text }) => {
             } else {
                 clearInterval(intervalId);
             }
-        }, 100);
+        }, 10);
 
         return () => {
             clearInterval(intervalId);
