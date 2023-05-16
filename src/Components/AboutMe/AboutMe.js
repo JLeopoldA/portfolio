@@ -35,7 +35,10 @@ function AboutMe() {
             </div>
             <div className="about-me-additional-content">
                 <div className="about-me-additional-content-text">
-
+                    <p className="about-me-additional-content-a">
+                        Check out my <a href="../../Assets/JustinAcostaCV.pdf" target="_blank" id="about-me-resume">Resume! </a>
+                            Or hit "Contact"!                   
+                    </p>
                 </div>
             </div>
         </div>
