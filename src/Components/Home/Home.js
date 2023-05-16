@@ -5,13 +5,15 @@ import { ImageObject } from "../ImageObject/ImageObject";
 
 function Home() {
     return (
-        <div className="nav-bar">
-            <NavButton buttonName="About Me" photo={ImageObject.aboutMe} />
-            <NavButton buttonName="Experience" photo={ImageObject.experience} />
-            <NavButton buttonName="Projects" photo={ImageObject.projects} />
-            <NavButton buttonName="Skills" photo={ImageObject.skills} />
-            <NavButton buttonName="Education" photo={ImageObject.education} />
-            <NavButton buttonName="Contact" photo={ImageObject.contact} />
+        <div className="nav-container">
+            <div className="nav-bar">
+                <NavButton className="nav-button" buttonName="ABOUT ME" photo={ImageObject.aboutMe} />
+                <NavButton className="nav-button" buttonName="EXPERIENCE" photo={ImageObject.experience} />
+                <NavButton className="nav-button" buttonName="PROJECTS" photo={ImageObject.projects} />
+                <NavButton className="nav-button" buttonName="SKILL SET" photo={ImageObject.skills} />
+                <NavButton className="nav-button" buttonName="EDUCATION" photo={ImageObject.education} />
+                <NavButton className="nav-button" buttonName="CONTACT" photo={ImageObject.contact} />
+            </div>
         </div>
     );
 }
